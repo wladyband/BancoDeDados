@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bancodedados.AndroidGoogle" >
+
+        <item 
+        android:id="@+id/menu_editar"
+        android:icon="@drawable/novo"
+        android:title="Novo"
+        android:showAsAction="always"/>
+    <item 
+        android:id="@+id/menu_buscar"
+        android:icon="@drawable/pesquisar"
+        android:title="Salvar"
+        android:showAsAction="always"/>
+    <item 
+        android:id="@+id/menu_excluir"
+        android:icon="@drawable/excluir"
+        android:title="Excluir"
+        android:showAsAction="always"/>
+
+
+</menu>
